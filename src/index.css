@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #F6F3ED;
+  --color-stone: #E5DED2;
+  --color-charcoal: #20201E;
+  --color-champagne: #BDA16B;
+  --color-espresso: #211D19;
+
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
