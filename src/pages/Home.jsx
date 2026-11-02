@@ -4,6 +4,9 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import image1 from '../../images/1.png';
+import image2 from '../../images/2.png';
+import image3 from '../../images/3.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -222,7 +225,7 @@ export default function Home() {
 
         <section className="relative isolate min-h-[620px] overflow-hidden bg-[#20201D] text-[#FCFBF8] sm:min-h-[760px] lg:min-h-[860px]">
           <ImageFrame
-            src="/images/craftsmanship-kitchen.webp"
+            src={image1}
             alt="Modern kitchen with integrated cabinetry, a stone island and natural light"
             className="absolute inset-0"
             imageClassName="object-center"
@@ -408,7 +411,7 @@ export default function Home() {
 
         <section className="relative isolate min-h-[600px] overflow-hidden bg-[#20201D] text-[#FCFBF8] sm:min-h-[760px]">
           <ImageFrame
-            src="/images/editorial-interior.webp"
+            src={image2}
             alt="Open-plan interior with generous daylight and considered furnishings"
             className="absolute inset-0"
           />
@@ -436,7 +439,7 @@ export default function Home() {
 
         <section className="relative isolate min-h-[580px] overflow-hidden bg-[#20201D] text-[#FCFBF8] sm:min-h-[720px]">
           <ImageFrame
-            src="/images/enquiry-interior.webp"
+            src={image3}
             alt="Calm contemporary living room with soft upholstery and warm daylight"
             className="absolute inset-0"
           />

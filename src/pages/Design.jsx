@@ -6,6 +6,7 @@ import {
   ImageCta,
 } from '../components/EditorialPage';
 import usePageMetadata from '../hooks/usePageMetadata';
+import image11 from '../../images/11.png';
 
 const steps = [
   {
@@ -53,7 +54,7 @@ export default function Design() {
             </p>
           </div>
           <EditorialImage
-            src="/images/kitchen-02.webp"
+            src={image11}
             alt="Timber kitchen cabinetry and a pale stone worktop in natural light"
             className="aspect-[4/3] lg:aspect-[5/4]"
           />

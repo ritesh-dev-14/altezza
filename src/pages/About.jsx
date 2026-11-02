@@ -6,6 +6,8 @@ import {
   ImageCta,
 } from '../components/EditorialPage';
 import usePageMetadata from '../hooks/usePageMetadata';
+import image15 from '../../images/15.png';
+import image16 from '../../images/16.png';
 
 export default function About() {
   usePageMetadata(
@@ -70,7 +72,7 @@ export default function About() {
       <section className="px-6 py-20 sm:px-12 sm:py-28 lg:px-24 lg:py-36">
         <div className="mx-auto grid max-w-[1440px] gap-8 md:grid-cols-12 md:items-center md:gap-10">
           <EditorialImage
-            src="/images/about-interior.webp"
+            src={image15}
             alt="Carefully organized timber drawer showing considered interior storage"
             className="aspect-[4/3] md:col-span-7 md:aspect-[5/4]"
           />
@@ -113,7 +115,7 @@ export default function About() {
       </section>
 
       <ImageCta
-        image="/images/craftsmanship-kitchen.webp"
+        image={image16}
         alt="Contemporary kitchen combining integrated cabinetry, stone, and daylight"
         title={
           <>

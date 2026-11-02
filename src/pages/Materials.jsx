@@ -6,6 +6,8 @@ import {
   ImageCta,
 } from '../components/EditorialPage';
 import usePageMetadata from '../hooks/usePageMetadata';
+import image12 from '../../images/12.png';
+import image14 from '../../images/14.png';
 
 export default function Materials() {
   usePageMetadata(
@@ -30,7 +32,7 @@ export default function Materials() {
             </p>
           </div>
           <EditorialImage
-            src="/images/detail-stone.webp"
+            src={image12}
             alt="Veined marble surface with a subtle mix of pale stone tones"
             className="aspect-[4/3] lg:aspect-[5/4]"
           />
@@ -102,7 +104,7 @@ export default function Materials() {
       </section>
 
       <ImageCta
-        image="/images/kitchen-01.webp"
+        image={image14}
         alt="Light-toned contemporary kitchen with understated cabinetry"
         title={
           <>

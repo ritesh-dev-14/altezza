@@ -6,6 +6,10 @@ import {
   ImageCta,
 } from '../components/EditorialPage';
 import usePageMetadata from '../hooks/usePageMetadata';
+import image4 from '../../images/4.png';
+import image5 from '../../images/5.png';
+import image6 from '../../images/6.png';
+import image7 from '../../images/7.png';
 
 export default function Kitchens() {
   usePageMetadata(
@@ -33,7 +37,7 @@ export default function Kitchens() {
             </div>
           </div>
           <EditorialImage
-            src="/images/craftsmanship-kitchen.webp"
+            src={image4}
             alt="Modern kitchen with integrated cabinetry, a stone island, and natural light"
             className="aspect-[4/3] lg:aspect-[5/4]"
           />
@@ -64,7 +68,7 @@ export default function Kitchens() {
           <div className="grid gap-8 md:grid-cols-12 md:items-start md:gap-10">
             <figure className="md:col-span-7">
               <EditorialImage
-                src="/images/kitchen-01.webp"
+                src={image5}
                 alt="Light-toned kitchen with clean cabinetry and an island for gathering"
                 className="aspect-[4/3] sm:aspect-[5/4]"
               />
@@ -79,7 +83,7 @@ export default function Kitchens() {
             </figure>
             <div className="md:col-span-4 md:col-start-9 md:pt-24">
               <EditorialImage
-                src="/images/kitchen-02.webp"
+                src={image6}
                 alt="Warm timber cabinetry paired with a pale kitchen worktop"
                 className="aspect-[4/3] md:aspect-[4/5]"
               />
@@ -124,7 +128,7 @@ export default function Kitchens() {
       </section>
 
       <ImageCta
-        image="/images/enquiry-interior.webp"
+        image={image7}
         alt="A softly lit contemporary living space with calm natural materials"
         title={
           <>

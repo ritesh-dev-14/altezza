@@ -5,6 +5,7 @@ import {
   ImageCta,
 } from '../components/EditorialPage';
 import usePageMetadata from '../hooks/usePageMetadata';
+import image13 from '../../images/13.png';
 
 const studies = [
   {
@@ -65,7 +66,7 @@ export default function Projects() {
             </p>
           </div>
           <EditorialImage
-            src="/images/craftsmanship-kitchen.webp"
+            src={image13}
             alt="Contemporary kitchen interior with integrated cabinetry and a natural stone island"
             className="mt-10 aspect-[4/3] sm:mt-14 sm:aspect-[16/8]"
           />

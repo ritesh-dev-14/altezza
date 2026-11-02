@@ -6,6 +6,9 @@ import {
   ImageCta,
 } from '../components/EditorialPage';
 import usePageMetadata from '../hooks/usePageMetadata';
+import image8 from '../../images/8.png';
+import image9 from '../../images/9.png';
+import image10 from '../../images/10.png';
 
 export default function Wardrobes() {
   usePageMetadata(
@@ -35,7 +38,7 @@ export default function Wardrobes() {
             </p>
           </div>
           <EditorialImage
-            src="/images/collection-wardrobes.webp"
+            src={image8}
             alt="Walk-in wardrobe with tailored dark timber cabinetry and integrated lighting"
             className="mt-10 aspect-[4/3] sm:mt-14 sm:aspect-[16/9]"
           />
@@ -93,7 +96,7 @@ export default function Wardrobes() {
       <section className="bg-[#D8D0C4] px-6 py-20 sm:px-12 sm:py-28 lg:px-24">
         <div className="mx-auto grid max-w-[1440px] gap-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-16">
           <EditorialImage
-            src="/images/detail-finish.webp"
+            src={image9}
             alt="Warm vertical timber detailing and a sculptural wall light"
             className="aspect-[4/3]"
           />
@@ -115,7 +118,7 @@ export default function Wardrobes() {
       </section>
 
       <ImageCta
-        image="/images/signature-joinery.webp"
+        image={image10}
         alt="Softly lit living room with neutral upholstery and a calm palette"
         title={
           <>
